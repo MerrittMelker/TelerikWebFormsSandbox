@@ -17,7 +17,7 @@ namespace TelerikWebFormsSandbox
 
         }
 
-        private static readonly List<String> _myData = new List<string> {"a", "b", "c", "d" };
+        private static readonly List<String> _myData = new List<string> {"abe", "baaa", "cccc", "deeeeee" };
 
         [WebMethod]
         public static SearchBoxData GetResults(SearchBoxContext context)

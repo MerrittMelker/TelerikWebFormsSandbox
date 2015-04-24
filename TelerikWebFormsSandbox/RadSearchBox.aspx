@@ -6,7 +6,7 @@
         <telerik:RadSearchBox ID="RadSearchBox1" runat="server" OnSearch="RadSearchBox1_Search"
                               EmptyMessage="Search Products" Width="300">
             <DropDownSettings Height="150" Width="250"/>
-            <WebServiceSettings Path="RadSearchBox" Method="GetResults"/>
+            <WebServiceSettings Path="RadSearchBox.aspx" Method="GetResults"/>
         </telerik:RadSearchBox>
         <p>
             <asp:Label runat="server" ID="Label1"/>
