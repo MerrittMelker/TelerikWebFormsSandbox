@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://gatewaytest.omahaperformingarts.org/TessituraWebAPItest/Tessitura.asmx?wsdl" docRef="https://gatewaytest.omahaperformingarts.org/TessituraWebAPItest/Tessitura.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://gatewaytest.omahaperformingarts.org/TessituraWebAPItest/Tessitura.asmx" xmlns:q1="http://tessiturasoftware.com/" binding="q1:TessituraSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://gatewaytest.omahaperformingarts.org/TessituraWebAPItest/Tessitura.asmx" xmlns:q2="http://tessiturasoftware.com/" binding="q2:TessituraSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>
